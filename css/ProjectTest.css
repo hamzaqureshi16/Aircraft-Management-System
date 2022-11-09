@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(130, 150, 228);
+}
+.topnav {
+        
+        border-radius: 15px;
+        overflow: hidden;
+        height: 88px;
+}
+
+.topnav button{
+    position: absolute;
+    left: 1450px;
+    top: 40px;
+    height: 50px;
+    width: 60px;
+    border-radius: 10px;
+    border-style: dashed;
+
+    
+}
+
+.topnav button a {
+    color: black ;
+}
+.topnav img{
+    align-self: auto;
+}
+.mainimg{
+    border-radius: 15px;
+    padding-top: 5px;
+    position: absolute;
+    left: 380px;
+    
+}
+
+#text{
+position: absolute;
+top: 50%;
+left: 50%;
+font-size: 50px;
+color: white;
+transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+}
+
+.grid { 
+display: grid; 
+grid-template-columns: auto auto;
+position: relative;
+align-items: center;
+top: 50px;
+left: 30px;
+padding-left: 30px;
+}
+
+
+.grid button{
+background-color: gold;
+margin: 10px 10px 10px 10px;
+border-radius: 10px;
+height: 110px;
+width: 200px;
+}
+
+.tablestyle{
+background-color: antiquewhite;
+border-style: dotted;
+margin-left: auto;
+margin-right: auto;
+
+}
+.tablestyle td, th{
+border-radius: 10%;
+border-style: double;
+border-color: black;
+padding: 0%;
+text-align: center;
+font-weight: bold;
+color: black;
+}
+
+#headings{
+    font-style:italic ;
+    border-width: 5px;;
+}
+
+
+

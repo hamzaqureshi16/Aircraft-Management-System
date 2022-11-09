@@ -1,0 +1,6 @@
+dummy logins:
+
+Username		Password		    role
+hamzaqureshi16	mandalorian2020 	admin
+john			john12		        user
+Ghazan		    ghazan12            engineer

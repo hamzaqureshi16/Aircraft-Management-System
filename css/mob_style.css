@@ -1,0 +1,167 @@
+* {
+	padding: 0;
+	margin: 0;
+	position: static;
+	font-family: "Century Gothic", sans-serif;
+}
+
+.banner {
+	text-align: center;
+	list-style-type: none;	
+	width: 100%;
+	background-color: #b4d3fb;
+}
+
+.banner li {
+	list-style-type: none;	
+	background-color:  #b4d3fb;
+}
+
+.banner li img {
+	max-width:100%;
+	border-radius: 1.3em;
+}
+
+.banner_buttons li {
+	list-style-type: none;	
+	background-color: #b4d3fb;
+
+}
+
+.banner_buttons li button{
+	padding: 0;
+	margin: 0;
+	border: none;
+	background-color: #b4d3fb;
+	font-size: 1.1em;
+	color: #0d126c;
+	height: 94px;
+	width: 100%;
+}
+
+h1 {
+	padding: 10px 0 10px 0;
+	margin: 10px 0 10px 0;
+	text-align: center;
+	font-size: 3em;
+	font-style: oblique;
+	color: #0d126c;
+}
+
+
+.footer {
+	margin: 20px 0 0 0;
+	padding:10px 0;
+	color: #0d126c;
+	bottom: 0;
+	text-align: center;
+	list-style-type: none;	
+	width: 100%;
+	background-color: #b4d3fb;
+}
+
+
+/* Home page style*/
+
+.info {
+	padding: 10px 0 10px 0;
+	margin: 10px;
+	text-align: center;
+}
+
+#info_image img{
+	padding: 0 2px 0 2px;
+	width: 80%;
+	height: auto;
+}
+
+#info_txt {
+	padding: 5px 0 5px 0;
+	text-align: justify;
+}
+
+#info_txt ol {
+	list-style-position: inside;
+	font-style: italic;
+}
+
+#info_txt a:visited{
+	text-decoration: none;
+	color: inherit;	
+}
+
+#info_txt a:hover, a:active {
+	color: white;
+	background-color: #0d126c;
+}
+
+#info_txt a:hover + #registration {
+	color: pink;
+}
+
+
+/* Status Levels page style */
+
+h2 {
+	padding: 10px 5px 10px 5px;
+	margin: 10px 0 10px 0;
+	font-size: 2em;
+	color: #0d126c;
+}
+
+.status_table {
+	width: auto;
+	padding: 10px 0 10px 0;
+	margin: 10px 0 10px 0;	
+}
+
+.status_table td{
+	height: 3.5em;
+	text-align: center;
+}
+
+.status_table tr > td:first-child , th{
+	margin: 2px;
+	background-color: #b4d3fb;
+	font-style: italic;
+}
+
+.status_table tr:nth-child(odd) {
+	background-color: #b4d3fb;
+}
+
+
+.status_table tr:hover {
+	background-color:#c9c9c9;
+}
+
+
+/* Registration page style */
+
+form {
+	padding: 10px 0 10px 0;
+	margin: 10px 0 10px 0;	
+	text-align: center;	
+}
+
+form > input, select {
+	margin: 10px;
+}
+
+#account {
+	text-align: center;
+	padding: 10px 0 10px 0;
+	margin: 10px;	
+	width: 180px;
+	background-color: #b4d3fb;
+}
+
+input[type="submit"] {
+	margin-top: 10px;
+	padding:10px;
+	border-radius: 80px;
+	text-align: center;
+	font-size: 1.5em;
+	background-color: #b4d3fb;
+	color: #0d126c;	
+}
